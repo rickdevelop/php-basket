@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: #cbd3c2;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.card ul li {
+  list-style: none;
+  color: black;
+  margin: 5px 0;
+}
+
